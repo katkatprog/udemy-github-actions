@@ -7,10 +7,6 @@ on:
     paths:
       - 'backend/**'
       - '.github/**'
-  
-  schedule:
-    #日本時間で22:56
-    - cron: '56 13 * * *'
 
 defaults:
   run:
